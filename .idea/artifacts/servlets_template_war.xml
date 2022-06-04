@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlets-template:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlets-template</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlets-template-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="servlets-template:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="google.code.gson" />
+          <element id="library" level="project" name="glassfish.javax.json" />
+          <element id="library" level="project" name="googlecode.json.simple" />
+          <element id="library" level="project" name="fatboyindustrial.gson.javatime.serialisers" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
